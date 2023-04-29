@@ -35,6 +35,22 @@ This Python script downloads M3U8 files by playing the media and getting the URL
 - This script has only been tested on Windows 10 with Chrome. It may not work on other platforms or with other browsers.
 - This script downloads the M3U8 file using `ffmpeg`. If you want to convert the file to a different format, you can modify the `ffmpeg` command in the `download_m3u8_file` function.
 
+
+# Login Process for M3U8 Downloader
+
+If the media you want to download is behind a login, you can use this script to log in to the website and download the media.
+
+## Steps
+
+1. When prompted, enter "yes" to indicate that the website is locked behind a login.
+2. Enter the login URL and your credentials in the appropriate fields.
+3. Enter the ID of the username field, the ID of the password field, and the class of the submit button.
+4. The script will log in to the website and download the media.
+
+## Security
+
+When entering your credentials, it is important to ensure that the website is legitimate and that your information is being transmitted securely. Look for a lock icon in the address bar of your web browser or "https" in the website URL to ensure that the website is using a secure connection. It is also important to use strong, unique passwords and to avoid using the same password for multiple websites.
+
 # Legal Disclaimer
 
 This script is intended for personal and educational purposes only. The author does not condone or support piracy of any kind. It is the responsibility of the user to ensure that they have the legal right to download and use any media files obtained using this script.
